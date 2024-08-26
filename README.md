@@ -8,33 +8,60 @@ The primary purpose of this project was educational. Throughout this process, I 
 
 - <strong>Understand the end-to-end data science workflow:</strong> from data loading and exploration to preprocessing, modeling, and evaluation.
 - <strong>Learn from the best:</strong> I studied and adapted techniques from publicly available notebooks and resources to ensure I followed industry best practices.
-- <strong>Apply theoretical knowledge:</strong> I implemented various models and techniques learned during my studies, focusing on understanding their practical applications.
+- <strong>Apply theoretical knowledge:</strong> I implemented models and techniques learned during my studies, focusing on understanding their practical applications.
 
 <h3>Project Details</h3>
 
 <h4>Problem Statement</h4>
-Santander Bank aims to identify customers who will make a specific transaction in the future, irrespective of the transaction amount. This is a typical binary classification problem where the goal is to accurately predict whether a customer will make a transaction.
+Santander Bank aims to identify customers who will make a specific transaction in the future
 
 <h4>Dataset</h4>
-The dataset was provided as part of the Kaggle competition. It includes a training set with labels indicating whether a transaction was made and a test set where predictions are to be made. These data can be accessed through the <a href="https://www.kaggle.com/c/santander-customer-transaction-prediction">Kaggle competition page</a>.
+The dataset was provided as part of the Kaggle competition. It includes a training set with anonymous features indicating whether a transaction was made and a test set where predictions are to be made. These data can be accessed through the <a href="https://www.kaggle.com/c/santander-customer-transaction-prediction">Kaggle competition page</a>.
 
 <h4>Approach and Workflow</h4>
 <ol>
-  <li><strong>Data Loading:</strong> Loading the data into Pandas for exploration and analysis.</li>
-  <li><strong>Data Preprocessing:</strong> Handling missing values, encoding categorical variables, and scaling features to prepare the data for modeling.</li>
-  <li><strong>Exploration:</strong> Initial exploration to understand the dataset, identify patterns, and discover potential issues.</li>
-  <li><strong>Data Visualization:</strong> Using Seaborn and Matplotlib to create visual representations of data distributions and relationships between features.</li>
-  <li><strong>Feature Engineering:</strong> Creating new features or modifying existing ones to enhance model performance.</li>
-  <li><strong>Modeling:</strong> Experimenting with different machine learning models and evaluating their performance using appropriate metrics.</li>
+  <li><strong>Data Loading:</strong> </li>
+  <li><strong>Data Preprocessing:</strong></li>
+  <li><strong>Exploration:</strong></li>
+  <li><strong>Data Visualization:</strong></li>
+  <li><strong>Feature Engineering:</strong></li>
+  <li><strong>Data Augemtation:</strong></li>
+  <li><strong>Modeling:</strong></li>
 </ol>
 
 <h3>Results and Insights</h3>
-- <strong>Model Performance:</strong> Models were evaluated based on their ROC-AUC scores, with Gaussian Naive Bayes emerging as the best performer for this dataset.
-- <strong>Insights Gained:</strong> Through this project, I gained a deeper understanding of the importance of feature engineering and preprocessing in improving model accuracy. The exercise also highlighted the balance between model complexity and performance.
+Models were evaluated based on their ROC-AUC scores. We tested the LGBM model under three different conditions:
+- **Simple Features**: Basic feature set without complex engineering.
+- **Complex Feature Engineering**: Added "magic features" and other complex transformations.
+- **Data Augmentation**: Addressed data imbalance using data augmentation techniques.
 
-<h3>Conclusion</h3>
-This project has been a significant learning experience, allowing me to apply theoretical knowledge in a practical setting. While the project was inspired by existing work in the data science community, the process of implementation and experimentation has been invaluable in solidifying my understanding of key concepts in machine learning.
+<table>
+  <thead>
+    <tr>
+      <th>Model Configuration</th>
+      <th>ROC-AUC Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simple Features</td>
+      <td>0.XXXX</td> <!-- Replace with actual score -->
+    </tr>
+    <tr>
+      <td>Complex Feature Engineering</td>
+      <td>0.XXXX</td> <!-- Replace with actual score -->
+    </tr>
+    <tr>
+      <td>Data Augmentation</td>
+      <td>0.XXXX</td> <!-- Replace with actual score -->
+    </tr>
+  </tbody>
+</table>
 
+<strong>Insights Gained:</strong> Through this project, I gained a deeper understanding of the importance of feature engineering, data augmentation, and preprocessing in improving model accuracy. The balance between model complexity and performance was also a key takeaway.
 
-
-
+<h4>References</h4>
+- <a href="https://www.kaggle.com/code/yag320/list-of-fake-samples-and-public-private-lb-split">Yag320's List of Fake Samples and Public/Private LB Split</a>
+- <a href="https://www.kaggle.com/code/jiweiliu/lgb-2-leaves-augment">Jiwei Liu's LGB 2 Leaves Augment</a>
+- <a href="https://medium.com/analytics-vidhya/santander-customer-transaction-prediction-an-end-to-end-machine-learning-project-2cb763172f8a">Santander Customer Transaction Prediction: An End-to-End Machine Learning Project</a>
+- <a href="https://medium.com/@skshashankkumar41/santander-customer-transaction-prediction-44ab30d2236c">Santander Customer Transaction Prediction </a>
