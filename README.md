@@ -45,15 +45,15 @@ Models were evaluated based on their ROC-AUC scores. We tested the LGBM model un
   <tbody>
     <tr>
       <td>Simple Features</td>
-      <td>0.XXXX</td> <!-- Replace with actual score -->
+      <td>0.89930 </td> <!-- Replace with actual score -->
     </tr>
     <tr>
       <td>Complex Feature Engineering</td>
-      <td>0.XXXX</td> <!-- Replace with actual score -->
+      <td>0.92137</td> <!-- Replace with actual score -->
     </tr>
     <tr>
       <td>Data Augmentation</td>
-      <td>0.XXXX</td> <!-- Replace with actual score -->
+      <td>0.91036 </td> <!-- Replace with actual score -->
     </tr>
   </tbody>
 </table>
