@@ -61,7 +61,7 @@ Models were evaluated based on their ROC-AUC scores. We tested the LGBM model un
 <strong>Insights Gained:</strong> Through this project, I gained a deeper understanding of the importance of feature engineering, data augmentation, and preprocessing in improving model accuracy. The balance between model complexity and performance was also a key takeaway.
 
 <h4>References</h4>
-- <a href="https://www.kaggle.com/code/yag320/list-of-fake-samples-and-public-private-lb-split">Yag320's List of Fake Samples and Public/Private LB Split</a>
-- <a href="https://www.kaggle.com/code/jiweiliu/lgb-2-leaves-augment">Jiwei Liu's LGB 2 Leaves Augment</a>
-- <a href="https://medium.com/analytics-vidhya/santander-customer-transaction-prediction-an-end-to-end-machine-learning-project-2cb763172f8a">Santander Customer Transaction Prediction: An End-to-End Machine Learning Project</a>
-- <a href="https://medium.com/@skshashankkumar41/santander-customer-transaction-prediction-44ab30d2236c">Santander Customer Transaction Prediction </a>
+- <a href="https://www.kaggle.com/code/yag320/list-of-fake-samples-and-public-private-lb-split">Yag320's List of Fake Samples and Public/Private LB Split</a><br>
+- <a href="https://www.kaggle.com/code/jiweiliu/lgb-2-leaves-augment">Jiwei Liu's LGB 2 Leaves Augment</a><br>
+- <a href="https://medium.com/analytics-vidhya/santander-customer-transaction-prediction-an-end-to-end-machine-learning-project-2cb763172f8a">Santander Customer Transaction Prediction: An End-to-End Machine Learning Project</a><br>
+- <a href="https://medium.com/@skshashankkumar41/santander-customer-transaction-prediction-44ab30d2236c">Santander Customer Transaction Prediction </a><br>
